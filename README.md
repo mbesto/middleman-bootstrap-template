@@ -3,7 +3,7 @@ Middleman v4 starter kit template created for middleman front-end development.
 If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
 ### Quick start
-`middleman init your_project_name --template=middleman-starter-kit`
+`middleman init your_project_name -T mbesto/middleman-bootstrap-template`
 
 More information is [here](https://middlemanapp.com/advanced/project_templates/)
 
