@@ -1,3 +1,41 @@
+.container-fluid
+  .row.border-top.box-shadow
+    .col 
+      %footer.pt-4.my-md-5.pt-md-5
+        .row
+          .col-2
+            %img{:alt => "Company Name", :src => "#{lorem.image('75x75')}"}/
+            %small.d-block.mb-3.text-muted © 2018
+          .col-6
+            %h5 Contact Us
+            %address 
+              %strong name
+              %br/ 
+              address
+              %br/ 
+              address
+              %br/
+              address
+              %br
+              %a email@email.com
+          .col-4
+            %h5 Social
+            %ul.list-unstyled.text-small
+              %li
+                %a.text-muted{:href => "#"} LinkedIn
+              %li
+                %a.text-muted{:href => "#"} Twitter
+                     
+/ Global site tag (gtag.js) - Google Analytics
+/ replace UA-XX for both src and gtag config
+%script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"}
+:javascript
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+                  
 =javascript_include_tag '//cdn.bootcss.com/jquery/3.2.1/jquery.min.js'
 :javascript
   //jQuery CDN fallback
