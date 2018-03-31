@@ -1,23 +1,14 @@
 //### Bootstrap Components
 @import "vendor/components";
 
-//### Helpers
-@import "helpers/functions";
-@import "helpers/mixins";
-@import "helpers/placeholders";
-@import "helpers/variables";
-
 //### Base
-@import "base/typography";
+@import "base/variables";
+@import "base/normalize";
+@import "base/helpers";
 
 //### Layouts
 @import "layout/header";
-@import "layout/sidebar";
 @import "layout/footer";
 
-//### Pages
-@import "pages/home";
-@import "pages/single";
-
-//### Themes
-@import "themes/default";
+//### Theme
+@import "theme/default";
